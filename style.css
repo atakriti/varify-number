@@ -11,7 +11,11 @@ body{
     background: linear-gradient(to bottom,skyblue,white);
 }
 .main-container{
-    width: 80%;
+    min-width: 60%;
+    border: 3px gray solid;
+    padding: 4%;
+    border-radius:20px ;
+    box-shadow: 5px 5px 10px black;
 }
 h1{
     text-align: center;
@@ -20,11 +24,13 @@ h1{
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 input{
- width: 10%;   
+ width: 7rem;   
 height: 8rem;    
  font-size: 4rem;
  text-align: center;
