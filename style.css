@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    border: 1px red solid;
+    width: 80%;
+}
+.container{
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+input{
+ width: 10%;   
+height: 8rem;    
+ 
+ font-size: 7rem;
+ text-align: center;
+}
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
