@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom,skyblue,white);
 }
 .main-container{
     width: 80%;
@@ -24,8 +25,8 @@ h1{
 }
 input{
  width: 10%;   
-/* height: 8rem;     */
- font-size: 7rem;
+height: 8rem;    
+ font-size: 4rem;
  text-align: center;
  border: 2px skyblue solid;
  border-radius: 5px;
